@@ -12,7 +12,7 @@ st.set_page_config(
 st.title("🤖 Adaptive SLM–PEFT Deployment Advisor")
 st.caption("Benchmark-driven SLM, PEFT and deployment recommendations")
 
-DATA_PATH = "/content/multi_model_deployment_benchmark.csv"
+DATA_PATH = "multi_model_deployment_benchmark.csv"
 
 @st.cache_data
 def load_data():
